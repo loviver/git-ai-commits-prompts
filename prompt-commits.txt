@@ -9,14 +9,28 @@ La naturaleza del cambio (fix, feature, refactor, etc.)
 Patrones de diseño o arquitectura implicados
 Cambios en la funcionalidad vs. cambios en la estructura
 
-## IMPORTANTE: Tratamiento de Código Ofuscado
-Cuando encuentres estos términos en el código, IGNÓRALOS COMPLETAMENTE y enfócate únicamente en la estructura, patrones y funcionalidad general:
+### REGLA CRÍTICA DE PROCESAMIENTO
+AUTO-VERIFICACIÓN OBLIGATORIA: Antes de generar cualquier mensaje de commit, verifica que no estés haciendo referencia a ninguno de los siguientes términos ofuscados o cualquier variación de ellos:
 
-REDACTED, EMAIL_REDACTED, https://api.placeholder.com
-PLACEHOLDER_NUMBER, ENDPOINT_NAME, [...], { ... }
-CONSTANT_NAME, VAR_NAME, FUNC_NAME, CLASS_NAME, PLACEHOLDER_VALUE
+REDACTED
+EMAIL_REDACTED
+https://api.placeholder.com
+PLACEHOLDER_NUMBER
+ENDPOINT_NAME
+[...]
+{ ... }
+CONSTANT_NAME
+VAR_NAME
+FUNC_NAME
+CLASS_NAME
+PLACEHOLDER_VALUE
 
-Estos son marcadores genéricos que sustituyen información sensible o específica. Tu análisis debe centrarse en el propósito funcional del código, no en estos marcadores.
+Estos son simplemente marcadores de posición genéricos sin significado funcional real. Si detectas que estás mencionando alguno de estos términos en tus mensajes propuestos, descártalos inmediatamente y genera nuevos mensajes enfocados únicamente en:
+
+La funcionalidad general implementada
+Los patrones de diseño utilizados
+El propósito arquitectónico del cambio
+El impacto en el sistema como un todo
 
 ## Requisitos para los mensajes de commit
 
