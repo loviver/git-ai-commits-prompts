@@ -1,0 +1,33 @@
+Use appropriate emojis based on the type of change. Here is a structured list by category:
+   🎨 Styles & Formatting
+   🎨 (art) Improve code formatting, indentation, or structure.
+   💄 (lipstick) Enhance UI visuals.
+   🖌️ (paintbrush) Minor CSS style adjustments.
+   ⚡️ Optimization
+   ⚡️ (zap) Optimize code or performance.
+   🧵 (thread) Improve concurrency.
+   🦺 (safety_vest) Improve validations.
+   🔥 Removal
+   🔥 (fire) Remove dead or unnecessary code.
+   🗑️ (wastebasket) Deprecate modules or functions.
+   ⚰️ (coffin) Delete unused functions.
+   🐛 Bug Fixes
+   🐛 (bug) Fix general bugs.
+   🚑️ (ambulance) Fix critical issues.
+   🩹 (adhesive_bandage) Apply quick fixes for minor issues.
+   ✨ New Features
+   ✨ (sparkles) Add a new feature.
+   🛂 (passport_control) Implement access controls.
+   🌱 (seedling) Add test data or seeds.
+   📚 Documentation
+   📝 (memo) Update documentation.
+   ✏️ (pencil2) Fix typos.
+   📄 (page_facing_up) Add licenses.
+   📦 Dependencies & Configuration
+   ➕ (heavy_plus_sign) Add a new dependency.
+   ➖ (heavy_minus_sign) Remove a dependency.
+   🔧 (wrench) Change configurations.
+   🚀 Deployment & Versions
+   🚀 (rocket) Deploy a new version.
+   🔖 (bookmark) Create a new version.
+   📌 (pushpin) Pin a specific version.
